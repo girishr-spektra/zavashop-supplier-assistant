@@ -20,7 +20,7 @@ A two-phase AI assistant in Microsoft Foundry:
 
 ---
 
-## Hack Structure
+## Lab Structure
 
 | | Challenge | Focus |
 |---|---|---|
@@ -29,17 +29,17 @@ A two-phase AI assistant in Microsoft Foundry:
 
 **Estimated time:** 1 hour
 
----
+## Support Contact
 
-## Pre-Provisioned Services
+The CloudLabs support team is available 24/7, 365 days a year, via email and live chat to ensure seamless assistance at any time. We offer dedicated support channels tailored specifically for both learners and instructors, ensuring that all your needs are promptly and efficiently addressed.
 
-Your CloudLabs environment includes:
+Learner Support Contacts:
 
-- Azure subscription with contributor access
-- Microsoft Foundry hub and project (pre-created)
-- Azure AI Search instance (Basic SKU, pre-created)
-- Sample data files (supplier quote, product catalog, supplier history)
+- Email Support: cloudlabs-support@spektrasystems.com  
+- Live Chat Support: https://cloudlabs.ai/labs-support
 
----
+Click **Next** at the bottom of the page to proceed to the next page.
 
-Click **Next** at the bottom of the page to proceed to Getting Started.
+   ![](./media/auto-it-gt-gr-g2.png)
+
+## Happy Hacking!!
