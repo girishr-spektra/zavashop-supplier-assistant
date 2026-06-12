@@ -1,0 +1,13 @@
+type,sku,description,benchmark_price_eur,escalation_threshold_5pct_eur,current_primary_supplier,approved_spec,notes
+SKU,NP-GRAN-500,Whole Grain Muesli 500g,2.99,3.14,BalticGrain GmbH,"Min 12 months shelf life; resealable zipper bag; allergen declared","Benchmark based on last contracted rate April 2024. Prices above EUR 3.15 require category manager sign-off."
+SKU,NP-OAT-1KG,Organic Rolled Oats 1kg,2.20,2.31,Havre Nordic AS,"ISO 22000 required; recyclable packaging preferred","Current contract expires February 2025. Dual sourcing preferred from Q1 2025."
+SKU,NP-BERRY-250,Freeze-Dried Berry Mix 250g,5.25,5.51,Alpine Freeze GmbH,"Organic certified preferred; foil pouch required; minimum 10 months shelf life","Seasonal volatility expected. Prices above EUR 5.60 flagged for review. Harvest-dependent SKU - confirm supply continuity before contract."
+SKU,ZS-MUESLI-400,ZavaShop Own-Brand Muesli 400g,1.82,,FoodCo Netherlands,"Co-packer only; spec sheet ZS-OB-027","Own-brand. Not relevant for branded supplier quotes."
+SKU,OATS-BLK-5KG,Bulk Oats 5kg (foodservice),7.40,,Havre Nordic AS,ISO 9001 accepted,Foodservice only.
+POLICY,CP-PAYMENT,Payment Terms Standard,,,,"Standard: Net 30. Net 45 accepted with VP Procurement approval only.","All Ambient Food category purchase orders."
+POLICY,CP-INCOTERMS,Incoterms Standard,,,,"EXW non-preferred. ZavaShop standard is DDP or DAP to Netherlands Distribution Centre. Exceptions require Supply Chain Director approval.","Non-compliance must be escalated before contract signature."
+POLICY,CP-14,Renewal Clause Requirements,,,,"Automatic renewal clauses must include a fixed notice period of at least 60 days and capped price escalation of maximum 3% per cycle. Open-ended price escalation at supplier discretion is not acceptable per procurement policy CP-14.","CP-14 violation flagged in Nordic Provisions renewal negotiations Q2 2022 and Q4 2023."
+POLICY,CP-ESCALATION,Price Escalation Trigger,,,,"Any quoted price more than 5% above ZavaShop benchmark triggers an automatic price challenge. Buyer must request written justification from supplier before proceeding.","Applies to all Ambient Food SKUs."
+POLICY,CP-AUDIT,New Supplier Quality Audit,,,,"New suppliers require a quality audit before first order exceeds 5000 units.","Applies regardless of SKU category."
+POLICY,CP-DUAL,Dual Sourcing Requirement,,,,"Dual sourcing required for any SKU with annual spend above EUR 100000 or classified as a category A ingredient.","Annual spend threshold applies per SKU not per supplier."
+POLICY,CP-PRICE-VALIDITY,Price Validity Minimum,,,,"Price validity windows shorter than 90 days are not acceptable for contract negotiations.","Applies to all Ambient Food supplier quotations."
