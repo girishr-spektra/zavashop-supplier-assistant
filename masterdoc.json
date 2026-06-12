@@ -1,0 +1,49 @@
+{
+  "CosmosEndpoint": null,
+  "DocDbEndpoint": null,
+  "GitHubToken": null,
+  "Docs": [
+    {
+      "Title": "ZavaShop Supplier Review Assistant",
+      "Description": "Hack overview and scenario introduction",
+      "Thumbnail": null,
+      "IsValidated": false,
+      "ValidationsId": null,
+      "ExcludeFromAttendee": false,
+      "Hidden": false,
+      "Order": 1,
+      "RawFilePath": "https://docs-api.cloudlabs.ai/repos/CloudLabsAI-Azure/zavashop-supplier-assistant/raw/main/overview.md",
+      "FilePath": null,
+      "ContentFilePath": "overview.md",
+      "UnlockingRules": null
+    },
+    {
+      "Title": "Getting Started",
+      "Description": "Environment access, data file download, and service verification",
+      "Thumbnail": null,
+      "IsValidated": false,
+      "ValidationsId": null,
+      "ExcludeFromAttendee": false,
+      "Hidden": false,
+      "Order": 2,
+      "RawFilePath": "https://docs-api.cloudlabs.ai/repos/CloudLabsAI-Azure/zavashop-supplier-assistant/raw/main/getting-started.md",
+      "FilePath": null,
+      "ContentFilePath": "getting-started.md",
+      "UnlockingRules": null
+    },
+    {
+      "Title": "Challenge 01: Build the Supplier Review Assistant",
+      "Description": "Objectives 1-4: Storage, Foundry, AI Search, Agent. Bonus: Multi-agent pipeline.",
+      "Thumbnail": null,
+      "IsValidated": false,
+      "ValidationsId": null,
+      "ExcludeFromAttendee": false,
+      "Hidden": false,
+      "Order": 3,
+      "RawFilePath": "https://docs-api.cloudlabs.ai/repos/CloudLabsAI-Azure/zavashop-supplier-assistant/raw/main/challenge-1.md",
+      "FilePath": null,
+      "ContentFilePath": "challenge-1.md",
+      "UnlockingRules": null
+    }
+  ]
+}
