@@ -56,27 +56,21 @@ Feel free to start, stop, or restart your virtual machine as needed from the Res
 
 ## Download the Challenge Data Files
 
-Three reference files have been prepared for this challenge. Download all three now before you begin.
+The reference files for this challenge are packaged together in a single zip folder. Download and extract it before you begin.
 
-1. Download the supplier quote document:
-
-   ```
-   https://raw.githubusercontent.com/CloudLabsAI-Azure/zavashop-supplier-assistant/datasets/data/supplier-quote.md
-   ```
-
-1. Download the product catalog reference:
+1. Download the dataset zip folder:
 
    ```
-   https://raw.githubusercontent.com/CloudLabsAI-Azure/zavashop-supplier-assistant/datasets/data/product-catalog.csv
+   https://github.com/CloudLabsAI-Azure/zavashop-supplier-assistant/archive/refs/heads/datasets.zip
    ```
 
-1. Download the supplier history reference:
+1. Extract the downloaded zip folder to your Desktop or a folder you can find quickly. Inside the extracted folder, confirm you have all three reference files:
 
-   ```
-   https://raw.githubusercontent.com/CloudLabsAI-Azure/zavashop-supplier-assistant/datasets/data/supplier-history.md
-   ```
+   - `supplier-quote.md`
+   - `product-catalog.csv`
+   - `supplier-history.md`
 
-   Save all three files to your Desktop or a folder you can find quickly. You will use them in both phases of the challenge.
+   You will use these files in both phases of the challenge.
 
 ---
 
@@ -88,12 +82,12 @@ Three reference files have been prepared for this challenge. Download all three 
    https://ai.azure.com
    ```
 
-   Sign in and confirm the pre-provisioned Foundry hub and project are visible under your subscription.
+   Sign in, then locate the portal toggle in the top navigation bar and switch back to the **old portal** experience. Confirm the pre-provisioned Microsoft Foundry project is visible under your subscription.
 
 1. In the Azure Portal, confirm the following resources exist in your assigned resource group:
 
    - Azure AI Search instance
-   - Microsoft Foundry hub
+   - Microsoft Foundry project
 
    > **Note:** If either resource is missing, navigate to the Environment tab and contact CloudLabs support before proceeding.
 
