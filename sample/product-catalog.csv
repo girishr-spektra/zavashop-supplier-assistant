@@ -1,0 +1,13 @@
+SKU,Product Name,Category,Benchmark Unit Price (GBP),Standard MOQ,Max Price Variance %,Preferred Payment Terms,Approved Supplier Count,Policy Notes
+ZS-GRN-1042,Organic Rolled Oats 1kg,Ambient Grocery,1.70,500,5,Net 45,3,Organic SKUs require valid Soil Association certificate on file before first order.
+ZS-OIL-2207,Cold-Pressed Sunflower Oil 1L,Edible Oils,2.35,300,5,Net 45,2,Edible oils are surcharge-sensitive; commodity pass-through clauses must be capped at 8% per annum.
+ZS-SNK-3318,Sea Salt Crisps 150g,Snacks,0.88,1000,5,Net 30,4,High-velocity line; benchmark reviewed quarterly. Reject quotes more than 5% above benchmark.
+ZS-BEV-4455,Sparkling Spring Water 750ml,Beverages,0.61,1000,5,Net 30,5,Glass packaging deposit handled separately; confirm deposit terms before approval.
+ZS-CNF-5521,Dark Chocolate Bar 100g,Confectionery,1.12,800,5,Net 30,3,Seasonal demand spikes Q4; secure capacity commitments before peak.
+ZS-GRN-1051,Wholegrain Basmati Rice 2kg,Ambient Grocery,3.20,400,5,Net 45,3,Single-origin claims require lot traceability documentation.
+ZS-OIL-2215,Extra Virgin Olive Oil 500ml,Edible Oils,4.10,250,5,Net 45,2,High counterfeit-risk category; PDO origin must be verified.
+ZS-SNK-3325,Lightly Salted Pretzels 200g,Snacks,1.05,800,5,Net 30,4,Allergen statement (wheat) must appear on all delivered packaging.
+ZS-BEV-4462,Still Spring Water 1.5L,Beverages,0.54,1000,5,Net 30,5,Plastic packaging EPR fees apply; confirm recyclate content above 30%.
+ZS-CNF-5530,Milk Chocolate Buttons 120g,Confectionery,1.28,800,5,Net 30,3,Cocoa sourcing must hold Rainforest Alliance or equivalent certification.
+ZS-DRY-6610,Ground Coffee 227g,Hot Beverages,3.45,300,5,Net 45,4,Roast date must be within 30 days of delivery.
+ZS-DRY-6627,English Breakfast Teabags 80ct,Hot Beverages,1.95,500,5,Net 45,4,Ethical Tea Partnership membership required for new suppliers.
