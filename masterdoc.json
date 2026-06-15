@@ -15,6 +15,10 @@
             {
                 "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/zavashop-supplier-assistant/refs/heads/main/challenge-1.md",
                 "Order": 3
+            },
+            {
+                "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/zavashop-supplier-assistant/refs/heads/main/challenge-2.md",
+                "Order": 4
             }
         ]
     }
