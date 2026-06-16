@@ -19,7 +19,18 @@
             {
                 "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/zavashop-supplier-assistant/refs/heads/main/challenge-2.md",
                 "Order": 4
-            }
+            },
+                "UnlockingRules": [
+                    {
+                        "UnlockDependency": "Validations",
+                        "UnlockCriteria": "Execution",
+                        "DependentValidations": [
+                            "e3108aa0-e0a3-40eb-aaf7-a1af8efb199e",
+                            "82ef8e69-4a60-4619-b1ec-f506abdfec41",
+                            "9751e1d6-33e8-49fa-96b2-31b3df217ba5"
+                        ]
+                    }
+                ]
         ]
     }
 ]
