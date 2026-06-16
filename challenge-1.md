@@ -47,7 +47,15 @@ Create an Azure Storage account and upload the reference data files that will fe
 
 Set up the AI environment that will power the agent and the vector search.
 
-- Create a new **Microsoft Foundry Project** directly in your resource group. You do not need to create a hub first. Once deployed, navigate to Microsoft Foundry project.
+- Create a new **Microsoft Foundry Project** directly in your `challenge-rg` resource group.
+- Once the project is deployed, open the deployed Microsoft Foundry resource in the Azure Portal and assign yourself the Foundry Owner role before continuing:
+  - In the left menu, below **Overview**, select **Access control (IAM)**.
+  - Select **Add**, and then select **Add role assignment**.
+  - On the **Role** tab, search for **Foundry Owner**, select it, and then select **Next**.
+  - On the **Members** tab, select **Select members**, search for your lab user email <inject key="AzureAdUserEmail"></inject>, select it, and then choose **Select**.
+  - Select **Review + assign**, and then select **Review + assign** again to submit the role assignment.
+  - Verify that the role assignment is added successfully.
+- After the role assignment succeeds, open the Microsoft Foundry project.
 - In your project, navigate to **Models and Endpoints** and deploy the following two models:
 
   | Deployment name | Model | Purpose |
