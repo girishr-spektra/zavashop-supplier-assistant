@@ -40,19 +40,17 @@ Create an Azure Storage account and upload the reference data files that will fe
 
 Set up the AI environment that will power the agent and the vector search.
 
-- Navigate to [ai.azure.com](https://ai.azure.com) and sign in with your challenge credentials.
-- When the portal loads, locate the portal toggle in the top navigation bar and switch back to the **old portal** experience. Continue the rest of this challenge in the old portal.
-- Create a new **Microsoft Foundry Project** directly in your resource group (or use the pre-provisioned project if one exists in your environment). You do not need to create a hub first.
+- Create a new **Microsoft Foundry Project** directly in your resource group. You do not need to create a hub first. Once deployed, navigate to Microsoft Foundry project.
 - In your project, navigate to **Models and Endpoints** and deploy the following two models:
 
   | Deployment name | Model | Purpose |
   |---|---|---|
-  | `gpt-4o-mini` | `gpt-4.1-mini` (or `gpt-4.1`) | Chat - powers the agent |
+  | `gpt` | `gpt-4.1-mini` (or `gpt-4.1`) | Chat - powers the agent |
   | `text-embedding-ada-002` | `text-embedding-ada-002` | Embeddings - powers vector search |
 
 - Wait for both deployments to show status **Succeeded** before continuing.
 
-  > **Note:** If `gpt-4.1-mini` is unavailable in your region, use `gpt-4o-mini` as an alternative. Either model is sufficient for this challenge.
+  > **Note:** If `gpt-4.1-mini` is unavailable in your region, use an alternative region.
 
 ---
 
@@ -60,7 +58,7 @@ Set up the AI environment that will power the agent and the vector search.
 
 Create an Azure AI Search service and import the reference documents as a vectorized index.
 
-- In the Azure Portal, search for **AI Search** and create a new service in your resource group. Select the **Basic** pricing tier. Leave all other settings at their defaults.
+- In the Azure Portal, search for **AI Search** and create a new service in your resource group. Select the **Basic** pricing tie (if not available as an alternative you can choose standard. Leave all other settings at their defaults.
 - Once the service is created, navigate to it and select **Import and vectorize data**.
 - On the **Connect your data** step, select **Azure Blob Storage** as the data source, then select the **RAG** option to set up a retrieval-augmented generation index.
 - Point the data source to the `supplier-docs` container you created in Objective 1.
@@ -78,9 +76,8 @@ Create an Azure AI Search service and import the reference documents as a vector
 Build the Foundry agent, connect the AI Search index, and test it with structured procurement prompts.
 
 - In your Foundry project, navigate to **Agents** and select **+ New agent**.
-- Select **Create agent**. When prompted with **Create legacy agent**, select **Yes**.
 - Give the agent a descriptive name such as `ZavaShop-Review-Agent`.
-- Assign your `gpt-4o-mini` (or `gpt-4.1`) deployment as the model.
+- Assign your `gpt-4.1-mini` (or `gpt-4.1`) deployment as the model.
 - Under **Knowledge**, add a new knowledge source. Select **Azure AI Search** and connect it to the index you created in Objective 3.
 - In the **Instructions** (system prompt) field, enter the following:
 
