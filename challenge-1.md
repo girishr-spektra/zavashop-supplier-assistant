@@ -23,26 +23,23 @@ Confirm you have the three data files downloaded from Getting Started before you
 
 Create an Azure Storage account and upload the reference data files that will feed the knowledge base.
 
-1. In the Azure Portal, search for **Storage accounts** and create a new storage account in your assigned resource group. Use the following settings:
- - Performance: **Standard**
- - Redundancy: **LRS** (Locally Redundant Storage)
- - Leave all other settings at their defaults.
+- In the Azure Portal, search for **Storage accounts** and create a new storage account in your assigned resource group. Use the following settings:
+  - Performance: **Standard**
+  - Redundancy: **LRS** (Locally Redundant Storage)
+  - Leave all other settings at their defaults.
+- Once the storage account is created, navigate to **Containers** and create a new container named `supplier-docs`. Set the access level to **Private**.
+- Upload all three data files to the container:
+  - `supplier-quote.md`
+  - `product-catalog.csv`
+  - `supplier-history.md`
+- Confirm all three files appear in the container before proceeding.
 
-2. Once the storage account is created, navigate to **Containers** and create a new container named `supplier-docs`. Set the access level to **Private**.
-
-3. Upload all three data files to the container:
- - `supplier-quote.md`
- - `product-catalog.csv`
- - `supplier-history.md`
-
-4. Confirm all three files appear in the container before proceeding.
-
+<validation step="c93fcf6d-d226-4bf2-b04b-5329ce269d57" />
+ 
 > **Congratulations** on completing the Challenge! Now, it's time to validate it. Here are the steps:
 > - Hit the Validate button for the corresponding Challenge. If you receive a success message, you can proceed to the next Challenge. 
 > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
 > - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help.
-
-<validation step="c93fcf6d-d226-4bf2-b04b-5329ce269d57" />
 
 ---
 
