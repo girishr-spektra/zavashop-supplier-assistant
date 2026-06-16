@@ -34,6 +34,13 @@ Create an Azure Storage account and upload the reference data files that will fe
   - `supplier-history.md`
 - Confirm all three files appear in the container before proceeding.
 
+<validation step="c93fcf6d-d226-4bf2-b04b-5329ce269d57" />
+ 
+> **Congratulations** on completing the Challenge! Now, it's time to validate it. Here are the steps:
+> - Hit the Validate button for the corresponding Challenge. If you receive a success message, you can proceed to the next Challenge. 
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+> - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help.
+
 ---
 
 ### 2. Create a Microsoft Foundry Project and Deploy Models
@@ -52,6 +59,13 @@ Set up the AI environment that will power the agent and the vector search.
 
   > **Note:** If `gpt-4.1-mini` is unavailable in your region, use an alternative region.
 
+<validation step="cabc6d3d-c876-4132-96b0-ee4601f246c9" />
+ 
+> **Congratulations** on completing the Challenge! Now, it's time to validate it. Here are the steps:
+> - Hit the Validate button for the corresponding Challenge. If you receive a success message, you can proceed to the next Challenge. 
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+> - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help.
+
 ---
 
 ### 3. Build the Knowledge Base with Azure AI Search
@@ -68,6 +82,13 @@ Create an Azure AI Search service and import the reference documents as a vector
   - No errors appear in the indexer run history.
 
   > **Note:** The indexer processes all three files in the container. After the run completes, the index will contain chunks from the supplier quote, product catalog, and supplier history documents.
+
+<validation step="38f42e75-2e8d-49d2-affd-65fe33949ee3" />
+ 
+> **Congratulations** on completing the Challenge! Now, it's time to validate it. Here are the steps:
+> - Hit the Validate button for the corresponding Challenge. If you receive a success message, you can proceed to the next Challenge. 
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+> - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help.
 
 ---
 
