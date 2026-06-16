@@ -23,16 +23,19 @@ Confirm you have the three data files downloaded from Getting Started before you
 
 Create an Azure Storage account and upload the reference data files that will feed the knowledge base.
 
-- In the Azure Portal, search for **Storage accounts** and create a new storage account in your assigned resource group. Use the following settings:
+1. In the Azure Portal, search for **Storage accounts** and create a new storage account in your assigned resource group. Use the following settings:
   - Performance: **Standard**
   - Redundancy: **LRS** (Locally Redundant Storage)
   - Leave all other settings at their defaults.
-- Once the storage account is created, navigate to **Containers** and create a new container named `supplier-docs`. Set the access level to **Private**.
-- Upload all three data files to the container:
+
+2. Once the storage account is created, navigate to **Containers** and create a new container named `supplier-docs`. Set the access level to **Private**.
+
+3. Upload all three data files to the container:
   - `supplier-quote.md`
   - `product-catalog.csv`
   - `supplier-history.md`
-- Confirm all three files appear in the container before proceeding.
+  
+4. Confirm all three files appear in the container before proceeding.
 
 <validation step="c93fcf6d-d226-4bf2-b04b-5329ce269d57" />
  
