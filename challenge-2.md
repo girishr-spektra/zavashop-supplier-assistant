@@ -126,6 +126,21 @@ User message (supplier quote)
   - Structured extraction with flags from the Extraction Agent.
   - Procurement Review Summary with recommendation and grounded risks from the Analyst Agent.
 
+<validation step="31e9434a-a178-4706-a9f2-e4054c757d9e" />
+ 
+> **Congratulations** on completing the Challenge! Now, it's time to validate it. Here are the steps:
+> - Hit the Validate button for the corresponding Challenge. If you receive a success message, you can proceed to the next Challenge. 
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+> - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help.
+
+
+<validation step="4c43da9c-006a-445b-9906-c0a6ba7c0094" />
+ 
+> **Congratulations** on completing the Challenge! Now, it's time to validate it. Here are the steps:
+> - Hit the Validate button for the corresponding Challenge. If you receive a success message, you can proceed to the next Challenge. 
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+> - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help.
+
 ---
 
 ### Bonus Success Criteria
