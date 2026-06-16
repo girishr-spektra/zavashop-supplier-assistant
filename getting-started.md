@@ -74,25 +74,6 @@ The reference files for this challenge are packaged together in a single zip fol
 
 ---
 
-## Verify Access to Required Services
-
-1. Navigate to **Microsoft Foundry**:
-
-   ```
-   https://ai.azure.com
-   ```
-
-   Sign in, then locate the portal toggle in the top navigation bar and switch back to the **old portal** experience. Confirm the pre-provisioned Microsoft Foundry project is visible under your subscription.
-
-1. In the Azure Portal, confirm the following resources exist in your assigned resource group:
-
-   - Azure AI Search instance
-   - Microsoft Foundry project
-
-   > **Note:** If either resource is missing, navigate to the Environment tab and contact CloudLabs support before proceeding.
-
----
-
 Now, click on the **Next** from the lower right corner to move on to the challenge.
 
 ## Happy Hacking!!
